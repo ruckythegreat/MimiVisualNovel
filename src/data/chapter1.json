@@ -252,7 +252,7 @@
     "text": "Kamu membuka pintu dengan gaya ala superhero.",
     "stage": {
       "background": {
-        "image": "0a56ddd73ece0f4d626d4be7900e929f.jpg",
+        "image": "07a08ab98b13bf33d059775a53ac47b8.jpg",
         "overlay": 20,
         "transition": {
           "type": "slide",
@@ -440,7 +440,7 @@
   {
     "id": "narration-corridor",
     "type": "narration",
-    "text": "Rucky baru saja membanting novel di depan Excel.",
+    "text": "Mimi baru saja membanting novel di depan Excel.",
     "stage": {
       "characters": [
         {
@@ -481,7 +481,7 @@
   {
     "id": "dialogue-rucky-01",
     "type": "dialogue",
-    "speakerId": "rucky",
+    "speakerId": "Mimi",
     "text": "Buset dah, komik apaan sih ini? Klise banget nggak masuk akal! Mana ada kejadian tabrakan pas di depan pintu rumah, kocak!",
     "stage": {
       "characters": [
@@ -496,7 +496,7 @@
   {
     "id": "dialogue-rucky-02",
     "type": "dialogue",
-    "speakerId": "rucky",
+    "speakerId": "Mimi",
     "text": "Woi Excel, ngapain lu beli komik random kayak gini?",
     "stage": {
       "characters": [
