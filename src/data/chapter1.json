@@ -1,5 +1,3 @@
-
-
 [
   {
     "id": "guide-schema",
@@ -32,24 +30,24 @@
       }
     }
   },
-{ 
-      "id": "dialogue-protag-01",
+  {
+    "id": "dialogue-protag-01",
     "type": "dialogue",
     "speakerId": "protag",
-    "text": "Mmm.. pagi yang indah, akhirnya hari pertama aku di SMA 67 Nusa.",
-  "stage": {     
-  "characters": [
+    "text": "Mmm... pagi yang indah, akhirnya hari pertama aku di SMA 67 Nusa.",
+    "stage": {
+      "characters": [
         {
           "id": "protag",
           "name": "???",
           "image": "mimi_happy.jpg",
           "position": "center",
           "movement": "fade",
-          
           "isSpeaking": false
         }
-      ]}
-      },
+      ]
+    }
+  },
   {
     "stage": {
       "characters": [
@@ -85,7 +83,7 @@
     "id": "dialogue-protag-02",
     "type": "dialogue",
     "speakerId": "protag",
-    "text": "WOY UDAH JAM 7.67 am!!",
+    "text": "ASTAGA UDAH JAM 7.67 AM!!",
     "stage": {
       "characters": [
         {
@@ -101,7 +99,7 @@
     "id": "dialogue-protag-03",
     "type": "dialogue",
     "speakerId": "protag",
-    "text": "Mati gua telat banget ini.",
+    "text": "Mati aku, ini mah beneran telat parah.",
     "stage": {
       "characters": [
         {
@@ -136,7 +134,7 @@
   {
     "id": "branch-sleep",
     "type": "narration",
-    "text": "Kamu menenggelamkan diri di selimut. Kamu telah melewatkan takdir MyKisah—setidaknya di timeline ini.",
+    "text": "Kamu menenggelamkan diri lagi di balik selimut. Kamu telah melewatkan takdir MyKisah—setidaknya di timeline ini.",
     "stage": {
       "background": {
         "image": "5ed1185ee989bf2ac31e6e4a330d2966.jpg",
@@ -159,7 +157,7 @@
   {
     "id": "branch-sleep-return",
     "type": "narration",
-    "text": "Tetapi mimpi buruk soal mykisah bikin kamu melompat bangun lagi.",
+    "text": "Tetapi mimpi buruk soal telat di hari pertama bikin kamu melompat bangun lagi.",
     "stage": {
       "characters": [
         {
@@ -201,7 +199,7 @@
   {
     "id": "narration-mirror",
     "type": "narration",
-    "text": "Kamu melihat kaca. Rambut rapi, seragam kinclong, hati deg-degan.",
+    "text": "Kamu menatap cermin. Rambut rapi, seragam kinclong, hati deg-degan.",
     "stage": {
       "objects": [
         {
@@ -220,7 +218,7 @@
     "id": "dialogue-protag-04",
     "type": "dialogue",
     "speakerId": "protag",
-    "text": "Jirlah akhirnya gw esema, esempe mana paham ygy.",
+    "text": "Wah, akhirnya masuk SMA. Anak SMP mana paham ygy.",
     "stage": {
       "characters": [
         {
@@ -236,7 +234,7 @@
     "id": "dialogue-protag-05",
     "type": "dialogue",
     "speakerId": "protag",
-    "text": "Gak lucu sih kalo misal gw telat hari pertama SMA, kayaknya gw skip sarapan aja deh.",
+    "text": "Nggak lucu sih kalau sampai telat di hari pertama. Kayaknya aku skip sarapan aja deh.",
     "stage": {
       "characters": [
         {
@@ -251,7 +249,7 @@
   {
     "id": "narration-door",
     "type": "narration",
-    "text": "Kamu membuka pintu dengan gaya superhero.",
+    "text": "Kamu membuka pintu dengan gaya ala superhero.",
     "stage": {
       "background": {
         "image": "0a56ddd73ece0f4d626d4be7900e929f.jpg",
@@ -305,7 +303,7 @@
     "id": "dialogue-protag-06",
     "type": "dialogue",
     "speakerId": "protag",
-    "text": "WOI GOB#OK NGAPAIN DEPAN PINTU ORANG!",
+    "text": "YAA AMPUN! Ngapain berdiri di depan pintu orang pagi-pagi?!",
     "transition": "flash",
     "stage": {
       "characters": [
@@ -321,7 +319,7 @@
     "id": "dialogue-kai-01",
     "type": "dialogue",
     "speakerId": "kai",
-    "text": "anu-... g-gomen…. watashi wa tidak melihat pintu...",
+    "text": "Anu... g-gomen... watashi wa tidak melihat ada pintu...",
     "stage": {
       "characters": [
         {
@@ -346,7 +344,7 @@
     "id": "dialogue-protag-07",
     "type": "dialogue",
     "speakerId": "protag",
-    "text": "(Anying cewek ternyata...)",
+    "text": "(Astaga, ternyata cewek...)",
     "stage": {
       "characters": [
         {
@@ -361,7 +359,7 @@
     "id": "dialogue-protag-08",
     "type": "dialogue",
     "speakerId": "protag",
-    "text": "e-eh anu maaf watashi sudah m-marah… gomennasai..",
+    "text": "E-eh, anu... maaf, aku tadi kelepasan kaget... gomennasai...",
     "stage": {
       "characters": [
         {
@@ -376,7 +374,7 @@
     "id": "dialogue-kai-02",
     "type": "dialogue",
     "speakerId": "kai",
-    "text": "K-Kalau begitu maafin watahis ya.. kalau kamu satu sekolah sama aku... jadi pacar aku?",
+    "text": "K-Kalau begitu maafin watashi ya... sebagai gantinya, kalau kamu satu sekolah sama aku... mau jadi pacar aku?",
     "stage": {
       "characters": [
         {
@@ -442,7 +440,7 @@
   {
     "id": "narration-corridor",
     "type": "narration",
-    "text": "Rucky sudah membanting novel di depan Excel.",
+    "text": "Rucky baru saja membanting novel di depan Excel.",
     "stage": {
       "characters": [
         {
@@ -484,7 +482,7 @@
     "id": "dialogue-rucky-01",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "Anying comic apaan coba ini udah klise gak masuk akal, mana ada orang nabrak depan pintu persis tolol!",
+    "text": "Buset dah, komik apaan sih ini? Klise banget nggak masuk akal! Mana ada kejadian tabrakan pas di depan pintu rumah, kocak!",
     "stage": {
       "characters": [
         {
@@ -499,7 +497,7 @@
     "id": "dialogue-rucky-02",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "Woi Excel ngapain lu beli komik sampah kayak gini?",
+    "text": "Woi Excel, ngapain lu beli komik random kayak gini?",
     "stage": {
       "characters": [
         {
@@ -514,7 +512,7 @@
     "id": "dialogue-excel-01",
     "type": "dialogue",
     "speakerId": "excel",
-    "text": "Gw beli soalnya judulnya menarik.",
+    "text": "Aku beli karena judulnya menarik, bro.",
     "stage": {
       "characters": [
         {
@@ -543,7 +541,7 @@
     "id": "dialogue-excel-02",
     "type": "dialogue",
     "speakerId": "excel",
-    "text": "Baca sendiri lah bukunya di elu.",
+    "text": "Baca sendiri lah, kan bukunya di elu.",
     "stage": {
       "characters": [
         {
@@ -558,7 +556,7 @@
     "id": "dialogue-rucky-04",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "oiya yak bener juga... coba mana “Aku menabrak istri 10’9 Muscle mommy goth girl ku saat aku pertama kali pergi ke SMA” Written by Wuxii”.",
+    "text": "Oh iya yak, bener juga. Coba mana... 'Aku Menabrak Istri 10’9 Muscle Mommy Goth Girl-ku Saat Aku Pertama Kali Pergi ke SMA' Written by Wuxii.",
     "stage": {
       "characters": [
         {
@@ -573,7 +571,7 @@
     "id": "dialogue-rucky-05",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "Sakit anjing authornya, buang aja ini buku Excel!",
+    "text": "Makin ke sini makin ke sana aja imajinasi authornya. Udah mending disumbangin aja nih buku, Cel!",
     "stage": {
       "characters": [
         {
@@ -588,7 +586,7 @@
     "id": "dialogue-excel-03",
     "type": "dialogue",
     "speakerId": "excel",
-    "text": "Jangan anjay, gw mau belajar dari buku ini biar bisa ketemu goth girl muscle mommy pas nge gym.",
+    "text": "Jangan anjay, gw mau belajar dari buku ini biar bisa ketemu goth girl muscle mommy pas nge-gym.",
     "stage": {
       "characters": [
         {
@@ -603,7 +601,7 @@
     "id": "dialogue-rucky-06",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "Be honest aja, tuh tulang tangan kempes gitu.",
+    "text": "Jujur aja deh, itu tulang tangan masih kempes gitu sok-sokan mau nge-gym.",
     "stage": {
       "characters": [
         {
@@ -618,7 +616,7 @@
     "id": "dialogue-excel-04",
     "type": "dialogue",
     "speakerId": "excel",
-    "text": "Halah nyocot, nanti juga pas ketemu your kisah pasti gini juga, Rucky.",
+    "text": "Halah bawel, nanti kalau lu udah ketemu the one di dunia nyata, pasti tingkah lu gini juga, Rucky.",
     "stage": {
       "characters": [
         {
@@ -648,7 +646,7 @@
     "id": "dialogue-excel-05",
     "type": "dialogue",
     "speakerId": "excel",
-    "text": "Keliatan discord modnya.",
+    "text": "Kelihatan banget aura discord mod-nya.",
     "stage": {
       "characters": [
         {
@@ -663,7 +661,7 @@
     "id": "dialogue-rucky-08",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "Nyocot ah.",
+    "text": "Berisik lu ah.",
     "stage": {
       "characters": [
         {
@@ -677,7 +675,7 @@
   {
     "id": "narration-bell",
     "type": "narration",
-    "text": "Bel sekolah berbunyi, sekolah akan segera dimulai.",
+    "text": "Bel sekolah berbunyi, pertanda pelajaran akan segera dimulai.",
     "stage": {
       "objects": [
         {
@@ -691,7 +689,7 @@
     "id": "dialogue-rucky-09",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "Udahlah gw mau balik dulu ke kelas. Lu, pulsek, mau ke gramed gak? ganti itu buku sampah sumpah.",
+    "text": "Udahlah gw mau balik dulu ke kelas. Lu nanti pulsek mau mampir ke Gramed nggak? Ganti gih tuh buku lu.",
     "stage": {
       "characters": [
         {
@@ -706,7 +704,7 @@
     "id": "dialogue-excel-06",
     "type": "dialogue",
     "speakerId": "excel",
-    "text": "Hayuk aja, cuman gw mau ke ruang seni dulu sama my kisah.",
+    "text": "Hayuk aja, cuma gw mau ke ruang seni dulu nemenin ayang.",
     "stage": {
       "characters": [
         {
@@ -721,7 +719,7 @@
     "id": "dialogue-rucky-10",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "Hah? sama siapa?",
+    "text": "Hah? Emang sama siapa?",
     "stage": {
       "characters": [
         {
@@ -735,7 +733,7 @@
     "id": "dialogue-excel-07",
     "type": "dialogue",
     "speakerId": "excel",
-    "text": "Himeko.",
+    "text": "Sama Himeko dong.",
     "stage": {
       "characters": [
         {
@@ -750,7 +748,7 @@
     "id": "dialogue-rucky-11",
     "type": "dialogue",
     "speakerId": "rucky",
-    "text": "Gila ni orang skizo.",
+    "text": "Ya elah, kumat lagi halunya ni anak.",
     "stage": {
       "characters": [
         {
@@ -764,7 +762,7 @@
   {
     "id": "narration-ending",
     "type": "narration",
-    "text": "Hari pertama resmi dimulai. Kamu siap mencari kelanjutannya.",
+    "text": "Hari pertama resmi dimulai. Kamu siap mencari kelanjutan takdir absurd ini.",
     "transition": {
       "type": "fade",
       "duration": 800
