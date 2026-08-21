@@ -40,7 +40,7 @@
         {
           "id": "protag",
           "name": "???",
-          "image": "mimi_happy.jpg",
+          "image": "mimi_happy.png",
           "position": "center",
           "movement": "fade",
           "isSpeaking": false
