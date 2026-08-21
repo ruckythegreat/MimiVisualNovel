@@ -294,7 +294,7 @@
         {
           "id": "kai",
           "name": "Gadis Misterius",
-          "image": "kai_normal.jpg",
+          "image": "kai.jpg",
           "position": "right",
           "movement": "slide-right",
           "isSpeaking": false
