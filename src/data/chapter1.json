@@ -251,6 +251,7 @@
     "type": "narration",
     "text": "Kamu membuka pintu dengan gaya ala superhero.",
     "stage": {
+      "reset": true,
       "background": {
         "image": "07a08ab98b13bf33d059775a53ac47b8.jpg",
         "overlay": 20,
@@ -262,10 +263,12 @@
       "characters": [
         {
           "id": "protag",
+          "name": "???",
+          "image": "mimi_happy.png",
+          "position": "center",
           "isSpeaking": false
         }
-      ],
-      "objects": []
+      ]
     }
   },
   {
@@ -396,8 +399,9 @@
     "type": "narration",
     "text": "(Sekolah)",
     "stage": {
+      "reset": true,
       "background": {
-        "image": "20250929204622.png.url",
+        "image": "1554fcf2ed3cc63cc96383cfa37353eb.jpg",
         "overlay": 35,
         "transition": {
           "type": "fade",
@@ -407,15 +411,12 @@
       "characters": [
         {
           "id": "protag",
+          "name": "???",
+          "image": "mimi_happy.png",
           "position": "center",
           "isSpeaking": false
-        },
-        {
-          "id": "kai",
-          "visible": false
         }
-      ],
-      "objects": []
+      ]
     }
   },
   {
@@ -481,7 +482,7 @@
   {
     "id": "dialogue-rucky-01",
     "type": "dialogue",
-    "speakerId": "Mimi",
+    "speakerId": "rucky",
     "text": "Buset dah, komik apaan sih ini? Klise banget nggak masuk akal! Mana ada kejadian tabrakan pas di depan pintu rumah, kocak!",
     "stage": {
       "characters": [
@@ -496,7 +497,7 @@
   {
     "id": "dialogue-rucky-02",
     "type": "dialogue",
-    "speakerId": "Mimi",
+    "speakerId": "rucky",
     "text": "Woi Excel, ngapain lu beli komik random kayak gini?",
     "stage": {
       "characters": [
@@ -768,27 +769,15 @@
       "duration": 800
     },
     "stage": {
-      "characters": [
-        {
-          "id": "protag",
-          "position": "center",
-          "movement": "fade",
-          "isSpeaking": false
-        },
-        {
-          "id": "rucky",
-          "visible": false
-        },
-        {
-          "id": "excel",
-          "visible": false
-        },
-        {
-          "id": "kai",
-          "visible": false
+      "reset": true,
+      "background": {
+        "image": "1554fcf2ed3cc63cc96383cfa37353eb.jpg",
+        "overlay": 100,
+        "transition": {
+          "type": "fade",
+          "duration": 800
         }
-      ],
-      "objects": []
+      }
     }
   }
 ]
